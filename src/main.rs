@@ -1,11 +1,11 @@
-mod solution01;
+mod solution02;
 use color_eyre::Result;
 
 
 fn main() -> Result<()> {
     color_eyre::install()?;
 
-    let res = solution01::solve();
+    let res = solution02::solve();
 
     match res {
         Ok(()) => {Ok(())}
